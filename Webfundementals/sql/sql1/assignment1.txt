@@ -1,0 +1,5 @@
+select * from users
+insert into users values('6', 'amro', 'hashish', 'hashish', '1978-08-23', '2010-02-01 00:00:01', '2011-07-01 00:00:01');
+update 
+update users set first_name = 'amro' where id =1;
+delete from users where id =6;
