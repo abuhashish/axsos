@@ -1,0 +1,8 @@
+git mkdir basic_rep
+cd basic_rep
+git init
+touch text.txt
+git add .
+git commit -m "hello"
+git remote add origin url
+git push --set-upstream origin master
