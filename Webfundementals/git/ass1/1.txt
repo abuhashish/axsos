@@ -1,0 +1,9 @@
+mkdir test
+touch index.html
+touch style.css
+code .
+git add .
+git commit -m "index or style changed"
+git push
+git log
+git revert -n 9023b40bb9cc90fc8d9c80e7b8c7659d25621f44
